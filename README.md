@@ -33,9 +33,10 @@ Each topic is a self-contained deep dive with visual explanations and runnable P
 | **[02: Memory Model & GC](02-memory/)** | Reference counting, `gc` module, circular references, weak refs | ✅ Complete |
 | **[03: How Dicts Actually Work](03-dict/)** | Hash tables, open addressing, collisions, compact dicts (Python 3.6+) | ✅ Complete |
 | **[04: Lists: Dynamic Arrays](04-list/)** | Over-allocation strategy, amortized O(1), list vs tuple memory layout | ✅ Complete |
-| **05: Function Calls & Stack** | Call stack, frames, local vs global scope, closures | 🚧 Coming Soon |
-| **06: Classes & Metaclasses** | `__new__` vs `__init__`, method resolution order (MRO) | 🚧 Coming Soon |
-| **07: Generators & Coroutines** | Generator objects, `yield`, async/await internals | 🚧 Coming Soon |
+| **[05: The Import System](05-import-system/)** | Module resolution, `sys.modules` cache, circular imports, package structure | ✅ Complete |
+| **06: Function Calls & Stack** | Call stack, frames, local vs global scope, closures | 🚧 Coming Soon |
+| **07: Classes & Metaclasses** | `__new__` vs `__init__`, method resolution order (MRO) | 🚧 Coming Soon |
+| **08: Generators & Coroutines** | Generator objects, `yield`, async/await internals | 🚧 Coming Soon |
 
 > 💡 **Tip:** Start with Topic 01 if you're new to Python internals!
 
@@ -67,6 +68,7 @@ python3 01-objects/explore.py
 python3 02-memory/explore.py  
 python3 03-dict/explore.py
 python3 04-list/explore.py
+python3 05-import-system/explore.py
 ```
 
 **Requirements:** Just Python 3.8+ — no virtual env, no dependencies, no hassle.
