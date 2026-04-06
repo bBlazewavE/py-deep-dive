@@ -1,0 +1,16 @@
+name: Python Patrol
+on: [pull_request]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  patrol:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: bBlazewavE/python-patrol@main
+        with:
+          path: "."
+          github-token: ${{ secrets.GITHUB_TOKEN }}
