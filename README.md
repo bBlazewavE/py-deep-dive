@@ -46,9 +46,10 @@ Each topic is a self-contained deep dive with visual explanations and runnable P
 
 - **📚 Intermediate Python developers** who want to go beyond "it just works"
 - **💼 Interview candidates** who need to understand the "why" behind the answers  
-- **🚀 Senior/Staff engineers** looking for quick refreshers on CPython internals
+- **🚀 Experienced developers** looking for deeper understanding of CPython internals
 - **🎓 CS students** who want practical examples instead of pure theory
 - **🔍 Curious minds** who've ever asked *"but WHY does it work that way?"*
+- **🛠️ Anyone debugging** mysterious Python behavior or performance issues
 
 **Not for:** Complete beginners to Python (learn the basics first!)
 
@@ -102,10 +103,11 @@ python3 05-import-system/explore.py
 2. [Memory Model & GC](02-memory/) — Garbage collection details
 3. [Everything is an Object](01-objects/) — Object model nuances
 
-### 🥇 **Advanced Track** (Preparing for staff/senior roles)
+### 🥇 **Advanced Track** (Ready to master Python internals)
 - Read all topics
 - Modify the `explore.py` scripts
 - Compare with other language implementations (Go, Java, etc.)
+- Build your own implementations of the concepts
 
 ---
 
