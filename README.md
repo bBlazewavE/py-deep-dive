@@ -34,9 +34,10 @@ Each topic is a self-contained deep dive with visual explanations and runnable P
 | **[03: How Dicts Actually Work](03-dict/)** | Hash tables, open addressing, collisions, compact dicts (Python 3.6+) | ✅ Complete |
 | **[04: Lists: Dynamic Arrays](04-list/)** | Over-allocation strategy, amortized O(1), list vs tuple memory layout | ✅ Complete |
 | **[05: The Import System](05-import-system/)** | Module resolution, `sys.modules` cache, circular imports, package structure | ✅ Complete |
-| **06: Function Calls & Stack** | Call stack, frames, local vs global scope, closures | 🚧 Coming Soon |
-| **07: Classes & Metaclasses** | `__new__` vs `__init__`, method resolution order (MRO) | 🚧 Coming Soon |
-| **08: Generators & Coroutines** | Generator objects, `yield`, async/await internals | 🚧 Coming Soon |
+| **[06: Protocols: Structural Subtyping](06-protocols/)** | PEP 544, interfaces without inheritance, duck typing + type safety | ✅ Complete |
+| **07: Function Calls & Stack** | Call stack, frames, local vs global scope, closures | 🚧 Coming Soon |
+| **08: Classes & Metaclasses** | `__new__` vs `__init__`, method resolution order (MRO) | 🚧 Coming Soon |
+| **09: Generators & Coroutines** | Generator objects, `yield`, async/await internals | 🚧 Coming Soon |
 
 > 💡 **Tip:** Start with Topic 01 if you're new to Python internals!
 
