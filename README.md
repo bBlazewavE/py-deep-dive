@@ -36,8 +36,8 @@ Each topic is a self-contained deep dive with visual explanations and runnable P
 | **[05: The Import System](05-import-system/)** | Module resolution, `sys.modules` cache, circular imports, package structure | ✅ Complete |
 | **[06: Protocols: Structural Subtyping](06-protocols/)** | PEP 544, interfaces without inheritance, duck typing + type safety | ✅ Complete |
 | **[07: Function Calls & Stack](07-function-calls/)** | Call stack, frames, local vs global scope, closures | ✅ Complete |
-| **08: Classes & Metaclasses** | `__new__` vs `__init__`, method resolution order (MRO) | 🚧 Coming Soon |
-| **09: Generators & Coroutines** | Generator objects, `yield`, async/await internals | 🚧 Coming Soon |
+| **[08: Classes & Metaclasses](08-classes-metaclasses/)** | `__new__` vs `__init__`, MRO, descriptors, metaclasses, `__slots__` | ✅ Complete |
+| **[09: Generators & Coroutines](09-generators-coroutines/)** | Generator objects, `yield`, `send()`, `yield from`, async/await internals | ✅ Complete |
 
 > 💡 **Tip:** Start with Topic 01 if you're new to Python internals!
 
